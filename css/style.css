@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 10px;
+    position: absolute;
+    background: white;
+}
+.youtube img {
+    width: 50px;
+}
+.logo {
+    flex: 1;
+}
+.logo img {
+    width: 40px;
+    margin-left: 10px;
+}
+#nav-bar {
+    flex: 1;
+    text-align: center;
+}
+.youtube {
+    flex: 1;
+    text-align: right   ;
+}
+.youtube img {
+    margin-right: 10px;
+}
+#nav-bar ul {
+    display: inline-flex;
+}
+#nav-bar ul li {
+    margin: 10px;
+    list-style: none;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer {
+    height: 50px;
+    background: rgb(80, 80, 80);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}

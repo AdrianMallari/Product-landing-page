@@ -1,0 +1,74 @@
+.content1 {
+    padding: 10px;
+    width: 100%;
+    margin-top: 50vh;
+}
+section {
+    display: flex;
+}
+#home {
+    background: url(../img/lttbg.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#product {
+    height: 100vh;
+}
+#email {
+    padding: 5px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+#submit {
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: auto;
+    align-items: center;
+}
+#email, #submit {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.products-img {
+    margin: auto;
+    display: flex;
+}
+.card img {
+    width: 300px;
+    margin: 50px;
+}
+.card {
+    height: 400px;
+    margin: auto;
+}
+#bottle {
+    width: 300px;
+}
+.card p {
+    text-align: center;
+}
+.products-img {
+    display: flex;
+}
+#buy {
+    padding: 5px 20px;
+    margin-left: 170px;
+}
+.up {
+    display: flex;
+    overflow-y: auto;
+}
+#video {
+}
+@media screen and (max-width: 1180px){
+    .products-img {
+        flex-direction: column;
+    }
+    #product {
+        height: auto;
+    }
+}
