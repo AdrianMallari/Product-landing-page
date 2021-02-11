@@ -1,74 +1,82 @@
-.content1 {
-    padding: 10px;
-    width: 100%;
-    margin-top: 50vh;
-}
+
 section {
     display: flex;
-}
-#home {
-    background: url(../img/lttbg.jpg) center;
+    background: url(../img/bg.jpg) center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+#home {
     height: 100vh;
+    padding: 100px 50px;
+    display: flex;
 }
 #product {
-    height: 100vh;
+    padding: 40px;
+}
+.info {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-img {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-img img{ 
+    max-width: 100%;
 }
 #email {
-    padding: 5px;
+    margin-top: 50px;
     width: 400px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: auto;
+    padding: 7px;
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
 }
 #submit {
-    padding: 5px 20px;
-    border-radius: 10px;
-    margin: auto;
-    align-items: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: yellowgreen;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #email, #submit {
     display: block;
-    text-align: center;
-    margin-bottom: 20px;
 }
-.products-img {
-    margin: auto;
-    display: flex;
-}
-.card img {
-    width: 300px;
-    margin: 50px;
-}
-.card {
-    height: 400px;
-    margin: auto;
-}
-#bottle {
-    width: 300px;
-}
-.card p {
-    text-align: center;
-}
-.products-img {
-    display: flex;
-}
-#buy {
-    padding: 5px 20px;
-    margin-left: 170px;
-}
-.up {
-    display: flex;
-    overflow-y: auto;
-}
-#video {
-}
-@media screen and (max-width: 1180px){
-    .products-img {
+@media screen and (max-width: 1200px){
+    #home {
         flex-direction: column;
     }
+}
+#product img {
+    max-width: 100%;
+}
+.products-img img {
+    margin-top: 150px;
+    filter: drop-shadow(1px 1px 5px black);
+}
+.product-info {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-info, table, th, td{
+    padding: 1%;
+}
+td, th {
+    border: 1px solid white;
+}
+@media screen and (max-width: 1117px){
     #product {
-        height: auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 800px){
+    .product-info {
+        width: 300px;
+        margin: 0;
     }
 }
