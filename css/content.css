@@ -39,4 +39,22 @@ th, td {
     margin: auto;
     min-height: 80vh;
     align-items: center;
+    padding: 30px;
+}
+.collage {
+    background: black;
+    border-radius: 25px;
+    width: 50vw;
+}
+#gallery iframe {
+    padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+    #gallery {
+        padding-top: 100px;
+        flex-direction: column;
+    }
+    .collage {
+        background: transparent;
+    }
 }
